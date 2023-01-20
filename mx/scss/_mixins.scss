@@ -1,0 +1,28 @@
+@mixin boton {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: $colorPrimario;
+    color: $colorNegro;
+    box-shadow: 0px 0px 15px -6px rgba(0, 0, 0, 0.571);
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+
+@mixin banner ($imagen){
+    @if $imagen == home {
+        background-image:linear-gradient(90.07deg, #397367 0.06%, #3DE7BC 99.93%), url("../images/img-header.jpg");
+        background-blend-mode: multiply;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+     @else if $imagen == section{
+        background-image:linear-gradient(90.07deg, #397367 0.06%, #3DE7BC 99.93%);
+        background-blend-mode: multiply;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,141 @@
+/*  Animaciones - imagenes home    */
+
+
+
+
+
+.wrap-financiamiento-img {
+    position: relative;
+    width: 564px;
+    height: 400px;
+    
+}
+
+.inner-financiamiento-img{
+    width: 564px;
+    height: 400px;
+}
+
+.img-panel{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.counter{
+    position: absolute;
+    left: 389px;
+    bottom: 83px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+
+.circle-slider{
+    position: absolute;
+}
+
+.box-estado{
+    position: absolute;
+    width: 210px;
+    height: auto;
+    top: 30px;
+    left: 360px;
+}
+
+
+/*calificacion */
+
+.wrap-calificacion{
+    position: relative;
+    width: 564px;
+    height: 438px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-calificacion{
+    width: 564px;
+    height: 438px;    
+}
+
+
+
+.panel-scoring-anim{
+    left: 20px;
+}
+
+.panel-bar-1-anim, .panel-bar-2-anim, .panel-bar-3-anim, .panel-bar-4-anim, .panel-bar-5-anim{
+    width: 80px !important;
+    left: 480px;
+    top: 100px;
+}
+
+
+/*wrkspace*/
+
+
+
+.pos-riesgo{
+
+    transform: translate(0px, 130px);
+
+}
+
+
+.innerHero{
+    height: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 992px) { 
+
+    .wrap-financiamiento-img {
+        transform: scale(0.6);
+    }
+
+    .wrap-calificacion{
+        transform: scale(0.6);  
+    }
+
+    .wrap-smartphones{
+        transform: scale(0.97);  
+    }
+
+    .panelCredito-mb{
+        transform: scale(0.6);  
+    }
+
+    .innerHero{
+        transform: scale(0.85);  
+    }
+
+}
+
+
+  
+@media (max-width: 576px) { 
+
+    .wrap-financiamiento-img {
+        transform: scale(0.8);
+    }
+
+    .wrap-calificacion{
+        transform: scale(0.8);  
+    }
+
+    .wrap-smartphones{
+        transform: scale(0.8);  
+    }    
+
+    .panelCredito-mb{
+        transform: scale(0.8);  
+    }
+
+}

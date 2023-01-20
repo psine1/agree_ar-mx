@@ -1,0 +1,38 @@
+.inDesktop-hidden{
+    display: none !important;
+}
+
+.inMobile-hidden{
+    display: block;
+}
+
+
+
+
+@media (max-width: 1070px) { 
+
+    .inDesktop-hidden{
+        display: block !important;
+    }
+
+
+    .inMobile-hidden{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 576px) { 
+
+    .inDesktop-hidden{
+        display: block !important;
+    }
+
+
+    .inMobile-hidden{
+        display: none;
+    }
+
+}
+
