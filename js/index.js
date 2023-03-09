@@ -1,4 +1,4 @@
-
+/*
 var language = navigator.language || navigator.browserLanguage;
 
 if ( navigator.language === "es-AR" || navigator.language === "es-ES" ) {       
@@ -10,4 +10,4 @@ else {
      //   alert("holaaa MX");
     }
 
-    
+    */
